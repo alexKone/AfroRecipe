@@ -1,0 +1,22 @@
+{
+  "name": "AfroRecipe_api",
+  "version": "0.0.1",
+  "description": "Api of Afro Recipe web app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Alexandre Kone",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-promise-router": "^3.0.3",
+    "mongoose": "^5.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
